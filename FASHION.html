@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Website</title>
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Use a common font stack */
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center the main content */
+            background-color: #f8f8f8; /* Light background */
+        }
+
+        header {
+            background: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content:space-between;
+            align-items: right;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex; /* Ensure nav items are in a row */
+            align-items: center;
+    
+            justify-content: space-between;
+        
+        }
+
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 400px; /* Space between logo and links */
+            margin-left: auto;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0; /* Remove default ul margin */
+            padding: 0; /* Remove default ul padding */
+        }
+
+        .nav-links li {
+            cursor: pointer;
+        }
+
+        .nav-icons {
+            display: flex;
+            gap: 48px;
+            align-items: center; /* Align icons vertically */
+        }
+        .nav-icons span {
+            cursor: pointer;
+        }
+
+
+        main {
+            padding: 50px 20px;
+            text-align: center; /* Center text within main */
+        }
+
+        h4 {
+            font-size: 18px; /* Adjust as needed */
+            color: #777; /* Subdued color */
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
+            line-height: 1.2; /* Improve line spacing */
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+        }
+
+        .pagination {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .arrow {
+            font-size: 24px;
+            cursor: pointer;
+            color: #555; /* Darker arrow color */
+        }
+        .pagination span {
+            padding: 5px 10px;
+            border: 1px solid #ccc; /* Add border to "Select Best Fashion" */
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">VOGUE</div>
+            <ul class="nav-links">
+                <li>Men</li>
+                <li>Women</li>
+                <li>Kids</li>
+                <li>Beauty</li>
+                <li>Accessories</li>
+                <li>Help?</li>
+                <li>FAQ'S</li>
+            </ul>
+            <div class="nav-icons">
+                <span>Login</span>
+                <span class="icon">🔍</span>
+                <span class="icon">🛒</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h4>Best Premium Quality Fashion</h4>
+        <h1>TRANSFORM YOUR WARDROBE LATEST<br>COLLECTION & LATEST BRANDS</h1>
+
+        <div class="gallery">
+            <img src="https://i.ebayimg.com/images/g/6KYAAOSwZypmOVZa/s-l1600.webp" alt="Fashion 1">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOBq4W8S1VJdXOTHd4vlyVdNNGpy3SXFv4heQJ_J1X86dbG-6lZSk5gPCPtKP71i98K5ApJiBvbFhWzHywcSMFB-VgXUVdBhSf4Kek6mFZV3D43nHYkMHyJF1U0gp51-QacIE1aqnEkFef_gbnWvJR3HGPHewqdc5z23TUxUiu1Jkz0Cy02HPXw4ndCGgg/s1160/ankarafashionladies-___3003849856319803436___-.jpg" alt="Fashion 2">
+            <img src="https://s.alicdn.com/@sc04/kf/Hf25ccb38ca4d49cca73e877b28b2153fM.jpg_300x300.jpg" alt="Fashion 3">
+            <img src="https://i.pinimg.com/736x/e4/38/80/e43880e7dbfe7ce7a6b2e1c7d4db8cdc.jpg" alt="Fashion 4">
+            <img src="https://i.ebayimg.com/images/g/r7IAAOSwGJxk20ht/s-l1600.webp" alt="Fashion 5">
+        </div>
+
+        <div class="pagination">
+            <span class="arrow">⬅</span>
+            <span>Select Best Fashion</span>
+            <span class="arrow">➡</span>
+        </div>
+    </main>
+</body>
+</html>

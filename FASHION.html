@@ -4,119 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Website</title>
-    
-    <style>
-        body {
-            font-family: 'Arial', sans-serif; /* Use a common font stack */
-            margin: 0;
-            padding: 0;
-            text-align: center; /* Center the main content */
-            background-color: #f8f8f8; /* Light background */
-        }
-
-        header {
-            background: #fff;
-            padding: 20px;
-            display: flex;
-            justify-content:space-between;
-            align-items: right;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        nav {
-            display: flex; /* Ensure nav items are in a row */
-            align-items: center;
-    
-            justify-content: space-between;
-        
-        }
-
-
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            margin-right: 400px; /* Space between logo and links */
-            margin-left: auto;
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 25px;
-            margin: 0; /* Remove default ul margin */
-            padding: 0; /* Remove default ul padding */
-        }
-
-        .nav-links li {
-            cursor: pointer;
-        }
-
-        .nav-icons {
-            display: flex;
-            gap: 48px;
-            align-items: center; /* Align icons vertically */
-        }
-        .nav-icons span {
-            cursor: pointer;
-        }
-
-
-        main {
-            padding: 50px 20px;
-            text-align: center; /* Center text within main */
-        }
-
-        h4 {
-            font-size: 18px; /* Adjust as needed */
-            color: #777; /* Subdued color */
-            margin-bottom: 10px;
-        }
-
-        h1 {
-            font-size: 36px;
-            font-weight: bold;
-            margin: 20px 0;
-            line-height: 1.2; /* Improve line spacing */
-        }
-
-        .gallery {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 20px;
-        }
-
-        .gallery img {
-            width: 200px;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-        }
-
-        .pagination {
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .arrow {
-            font-size: 24px;
-            cursor: pointer;
-            color: #555; /* Darker arrow color */
-        }
-        .pagination span {
-            padding: 5px 10px;
-            border: 1px solid #ccc; /* Add border to "Select Best Fashion" */
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="FASHION.css">
 </head>
 <body>
-    <header>
-        <nav>
+
+    <header class="header">
+        <nav class="nav">
             <div class="logo">VOGUE</div>
             <ul class="nav-links">
                 <li>Men</li>
@@ -135,7 +28,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main">
         <h4>Best Premium Quality Fashion</h4>
         <h1>TRANSFORM YOUR WARDROBE LATEST<br>COLLECTION & LATEST BRANDS</h1>
 
@@ -153,5 +46,9 @@
             <span class="arrow">➡</span>
         </div>
     </main>
+
 </body>
 </html>
+
+
+
